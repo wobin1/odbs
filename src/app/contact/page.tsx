@@ -72,7 +72,7 @@ export default function ContactPage() {
                             {[
                                 { icon: <Mail />, title: 'Email Us', desc: 'support@odbs.com', color: '#eff6ff', textColor: '#3b82f6' },
                                 { icon: <Phone />, title: 'Call Us', desc: '+1 (555) 123-4567', color: '#f0fdf4', textColor: '#22c55e' },
-                                { icon: <MapPin />, title: 'Visit Us', desc: '123 Dental Plaza, Health City, ST 12345', color: '#fff7ed', textColor: '#f59e0b' }
+                                { icon: <MapPin />, title: 'Visit Us', desc: '123 Dental Plaza, Health City, Yakowa Road', color: '#fff7ed', textColor: '#f59e0b' }
                             ].map((item, i) => (
                                 <div key={i} style={{ display: 'flex', gap: '1.5rem', alignItems: 'center' }}>
                                     <div style={{ padding: '1rem', background: item.color, borderRadius: '1rem', color: item.textColor }}>{item.icon}</div>
@@ -88,7 +88,7 @@ export default function ContactPage() {
                     <div style={{ padding: '2.5rem', background: 'var(--primary)', borderRadius: '2rem', color: 'white' }}>
                         <h4 style={{ fontSize: '1.5rem', fontWeight: 700, marginBottom: '1rem' }}>Emergency Care</h4>
                         <p style={{ color: '#94a3b8', lineHeight: 1.6, marginBottom: '1.5rem' }}>Available 24/7 for urgent dental needs. Call our emergency hotline for immediate assistance.</p>
-                        <div style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--accent)' }}>+1 (555) 999-0000</div>
+                        <div style={{ fontSize: '1.25rem', fontWeight: 800, color: 'var(--accent)' }}>+23481098755</div>
                     </div>
                 </motion.div>
 
